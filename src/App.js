@@ -5,6 +5,7 @@ import {Member} from './Member';
 import {Statement} from './Statement';
 import {Variable} from './Variable';
 import {Pulse} from './Pulse';
+import {Proposal} from './Proposal';
 
 const member =     {
   "PARENT": "users",
@@ -45,6 +46,45 @@ var statement =  {
     "statement": "with this one",
     "statementStatus": 1
   };
+
+var proposal = {
+    "age": 0,
+    "body": "let me in user5",
+    "id": "6c714e04-b08d-440e-9f88-595de9dfc820",
+    "initiator": null,
+    "log": [],
+    "parent": "users",
+    "parent_member": "6a11dbe8-b91c-4258-beea-67f41e16145f",
+    "proposalStatus": 7,
+    "support": {
+      "count": 2,
+      "members": [
+        "fbd3f4dd-6942-4122-9bc1-2a92e38817a2",
+        "71d3a835-ab6e-450d-a305-5696877c32b1"
+      ],
+      "percent": 66.66666666666666
+    },
+    "type": "ME",
+    "userObj": {
+      "age": 56,
+      "email": "uri5@gmail.com",
+      "id": "6a11dbe8-b91c-4258-beea-67f41e16145f",
+      "image": "http://phootoos/uri5.jpg",
+      "memberships": {
+        "live": {},
+        "past": {}
+      },
+      "user_name": "uri5"
+    },
+    "votes": {
+      "against": 0,
+      "members": [
+        "fbd3f4dd-6942-4122-9bc1-2a92e38817a2",
+        "71d3a835-ab6e-450d-a305-5696877c32b1"
+      ],
+      "pro": 2
+    }
+  };  
 
 var variable =   {
       "desc": "The precentage of members vote nedded to Replace Statement.",
@@ -93,6 +133,7 @@ class App extends Component {
         <Statement value={{statement}}/>
         <Pulse value={{pulse}}/>
         <Member value={{member}}/>
+        <Proposal value={{proposal}}/>
       </div>
     );
   }
