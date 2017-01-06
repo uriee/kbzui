@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Member} from './Member';
 import {Statement} from './Statement';
@@ -51,7 +50,7 @@ var proposal = {
     "age": 0,
     "body": "let me in user5",
     "id": "6c714e04-b08d-440e-9f88-595de9dfc820",
-    "initiator": null,
+    "initiator": 'none',
     "log": [],
     "parent": "users",
     "parent_member": "6a11dbe8-b91c-4258-beea-67f41e16145f",
@@ -122,13 +121,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+ 
         <Variable value={{variable}}/>
         <Statement value={{statement}}/>
         <Pulse value={{pulse}}/>

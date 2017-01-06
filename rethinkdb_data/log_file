@@ -1,0 +1,50 @@
+2017-01-02T09:00:50.576616000 0.310883s notice: Recursively removing directory /Users/urievenezra/kbzui/rethinkdb_data/tmp
+2017-01-02T09:00:50.579146000 0.313418s notice: Initializing directory /Users/urievenezra/kbzui/rethinkdb_data
+2017-01-02T09:00:50.579280000 0.313547s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/urievenezra/kbzui/rethinkdb_data' did not already exist or is empty.)
+2017-01-02T09:00:50.579331000 0.313598s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2017-01-02T09:00:50.648047000 0.382315s notice: Running on Darwin 13.4.0 x86_64
+2017-01-02T09:00:50.648126000 0.382393s notice: Loading data from directory /Users/urievenezra/kbzui/rethinkdb_data
+2017-01-02T09:00:50.735636000 0.469903s info: Automatically using cache size of 100 MB
+2017-01-02T09:00:50.735651000 0.469918s warn: Cache size does not leave much memory for server and query overhead (available memory: 245 MB).
+2017-01-02T09:00:50.735674000 0.469941s warn: Cache size is very low and may impact performance.
+2017-01-02T09:00:50.738862000 0.473129s notice: Listening for intracluster connections on port 29015
+2017-01-02T09:00:50.743121000 0.477388s notice: Listening for client driver connections on port 28015
+2017-01-02T09:00:50.743321000 0.477587s notice: Listening for administrative HTTP connections on port 8080
+2017-01-02T09:00:50.743325000 0.477592s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-01-02T09:00:50.743336000 0.477602s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-01-02T09:00:50.743339000 0.477606s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-01-02T09:00:50.743347000 0.477613s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-01-02T09:00:50.743355000 0.477621s notice: Server ready, "uris_MacBook_Air_local_7fz" a829f62b-c26a-4099-aa71-bdfd3528a17e
+2017-01-02T09:00:52.571435000 2.305701s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2017-01-02T13:15:32.284130000 10913.614563s notice: Server got SIGINT from pid 191, uid 501; shutting down...
+2017-01-02T13:15:32.286089000 10913.616522s notice: Shutting down client connections...
+2017-01-02T13:15:32.288131000 10913.618564s notice: All client connections closed.
+2017-01-02T13:15:32.288147000 10913.618579s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-02T13:15:32.299894000 10913.630327s notice: Storage engine shut down.
+2017-01-02T19:31:20.829086000 0.350812s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2017-01-02T19:31:20.894705000 0.416425s notice: Running on Darwin 13.4.0 x86_64
+2017-01-02T19:31:20.894773000 0.416491s notice: Loading data from directory /Users/urievenezra/kbzui/rethinkdb_data
+2017-01-02T19:31:20.954851000 0.476570s info: Automatically using cache size of 179 MB
+2017-01-02T19:31:20.956401000 0.478120s notice: Listening for intracluster connections on port 29015
+2017-01-02T19:31:20.960401000 0.482119s notice: Listening for client driver connections on port 28015
+2017-01-02T19:31:20.960566000 0.482285s notice: Listening for administrative HTTP connections on port 8080
+2017-01-02T19:31:20.960570000 0.482289s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-01-02T19:31:20.960576000 0.482295s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-01-02T19:31:20.960579000 0.482297s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-01-02T19:31:20.960584000 0.482302s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-01-02T19:31:20.960590000 0.482308s notice: Server ready, "uris_MacBook_Air_local_7fz" a829f62b-c26a-4099-aa71-bdfd3528a17e
+2017-01-02T19:31:22.626570000 2.148289s notice: A newer version of the RethinkDB server is available: 2.3.5. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2017-01-02T19:34:20.967671000 180.495579s info: Table 867e6849-60f5-4a91-a8e7-567b31c91a52: Starting a new Raft election for term 1.
+2017-01-02T19:34:20.967916000 180.495824s info: Table 867e6849-60f5-4a91-a8e7-567b31c91a52: Added replica on this server.
+2017-01-02T19:34:20.982205000 180.510113s info: Table 867e6849-60f5-4a91-a8e7-567b31c91a52: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-02T20:36:53.962116000 2646.246726s info: Table e4a84089-1dbc-4220-81b7-1a83c0475640: Starting a new Raft election for term 1.
+2017-01-02T20:36:53.967936000 2646.252547s info: Table e4a84089-1dbc-4220-81b7-1a83c0475640: Added replica on this server.
+2017-01-02T20:36:53.984154000 2646.268765s info: Table e4a84089-1dbc-4220-81b7-1a83c0475640: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-02T20:38:05.344948000 2717.632145s info: Table 062108b1-26e1-4138-bbba-2927c5a4b239: Starting a new Raft election for term 1.
+2017-01-02T20:38:05.345421000 2717.632618s info: Table 062108b1-26e1-4138-bbba-2927c5a4b239: Added replica on this server.
+2017-01-02T20:38:05.357529000 2717.644726s info: Table 062108b1-26e1-4138-bbba-2927c5a4b239: This server is Raft leader for term 1. Latest log index is 0.
+2017-01-05T08:12:24.109367000 16288.786385s notice: Server got SIGINT from pid 191, uid 501; shutting down...
+2017-01-05T08:12:24.114715000 16288.791733s notice: Shutting down client connections...
+2017-01-05T08:12:24.118319000 16288.795337s notice: All client connections closed.
+2017-01-05T08:12:24.118342000 16288.795359s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-05T08:12:24.174584000 16288.851601s notice: Storage engine shut down.

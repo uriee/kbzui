@@ -9,12 +9,12 @@ export const Variable = React.createClass({
   	const variable = this.props.value.variable;
 
 	return (
-	  <Panel >
-	    <h1>{variable.name}</h1>
-	    <div>desc:{variable.desc}</div>
-	    <div>value:{variable.value}</div>
-	    <Listarr value={{list:variable.proposals ,message:"There is no proposals",name:"Proposals"}}/>
-	  </Panel>
+		<Panel bsStyle="primary" header={variable.name}>
+	    	<h1>{variable.name}</h1>
+	    	<div>desc:{variable.desc}</div>
+	    	<div>value:{variable.value}</div>
+	    	<Listarr value={{list:variable.proposals ,message:"There is no proposals",name:"Proposals"}}/>
+	    </Panel>
  	 )    
   }
 });

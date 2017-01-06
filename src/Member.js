@@ -10,7 +10,7 @@ export const Member = React.createClass({
   render: function render() { 
     const member = this.props.value.member;
 	return (
-	  <Panel >
+	  <Panel  bsStyle="primary" header={member.userObj.user_name} >
 	    <h1>{member.id} </h1>
 	    <div>memberStatus:{member.memberStatus}</div>
 	    <Listdic value={{dic:member.memberships.live, message:"No Live Memberships", name:"Live Memberships"}}/>

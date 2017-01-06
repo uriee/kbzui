@@ -9,9 +9,9 @@ export const Pulse = React.createClass({
   	const pulse = this.props.value.pulse;
 
 	return (
-	  <Panel >
+	  <Panel bsStyle="primary" header={pulse.id} >
 	    <h1>{pulse.id}</h1>
-	    <div>Status: {pulse.status}</div>
+	    <div>Status: {pulse.pulseStatus}</div>
 	    <Listarr value={{list:pulse.Approved,message:"There are no Approved proposals",name:"Approved"}}/>
 	    <Listarr value={{list:pulse.Assigned,message:"There are no Assigned proposals",name:"Assigned"}}/>
 	    <Listarr value={{list:pulse.OnTheAir,message:"There are no OnTheAir proposals",name:"OnTheAir"}}/>	    

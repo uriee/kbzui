@@ -9,9 +9,9 @@ export const Statement = React.createClass({
   	const statement = this.props.value.statement;
 
 	return (
-	  <Panel >
+	  <Panel  bsStyle="primary" header={statement.statement} >
 	    <h1>{statement.statement}</h1>
-	    <div>status:{statement.status}</div>
+	    <div>status:{statement.statementStatus}</div>
 	    <div>id:{statement.id}</div>
 	    <Listarr value={{list:statement.proposals ,message:"There is no proposals",name:"Proposals"}}/>
 	  </Panel>

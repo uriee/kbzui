@@ -9,15 +9,10 @@ export const Proposal = React.createClass({
   render: function render() { 
     const proposal = this.props.value.proposal;
 	return (
-	  <Panel >
-	    <h2>{proposal.type}-{proposal.proposalStatus} </h2>
-	    <h1>{proposal.body}</h1>
-	    <div>{proposal.id}</div>
-	    <div>age:{proposal.age}</div>
-	    <div>parent_member :{proposal.parent_member}</div>
-	    <div>initiator:{proposal.initiator}</div>
-	    <Listdic value={{dic:proposal.support, message:"No Support", name:"Support"}}/>
-	    <Listdic value={{dic:proposal.votes, message:"No votes", name:"Votes"}}/>
+      <Panel  bsStyle="primary" header={proposal.type+"-"+proposal.proposalStatus} >
+      	<h1>{proposal.body}</h1>
+		<Listdic value = {{dic:proposal, name:"Proposal"}}/>
+
 	  </Panel>
     )
   }
@@ -25,6 +20,13 @@ export const Proposal = React.createClass({
 
 
 
+//      	<Listdic value = {{dic:proposal, name:"Proposal"}}/>
 
 
-
+	//    <h1>{proposal.body}</h1>
+	 //   <div>{proposal.id}</div>
+	 //   <div>age:{proposal.age}</div>
+	 //   <div>parent_member :{proposal.parent_member}</div>
+	 //   <div>initiator:{proposal.initiator}</div>
+	 //   <Listdic value={{dic:proposal.support, message:"No Support", name:"Support"}}/>
+	 //   <Listdic value={{dic:proposal.votes, message:"No votes", name:"Votes"}}/>
